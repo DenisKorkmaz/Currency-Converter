@@ -1,22 +1,28 @@
-# Währungsrechner
+# Currency Converter
 
-Das Projekt 'Währungsrechner' ist eine Webanwendung zur Währungsumrechnung. Die Anwendung erlaubt es Benutzern, den Wert einer Währung in eine andere zu konvertieren, basierend auf den aktuellen Wechselkursen.
+The 'Currency Converter' project is a web application for currency conversion. The application allows users to convert the value of one currency to another based on the current exchange rates.
 
-## Hauptfunktionen
+## Main Features
 
-- Konvertierung von Währungen basierend auf den aktuellsten Wechselkursen.
-- Unterstützt viele globale Währungen.
-- Möglichkeit, die Ausgangs- und Zielwährung zu wechseln.
+- Conversion of currencies based on the most recent exchange rates.
+- Supports many global currencies.
+- Ability to switch the source and target currency.
 
-## Verwendung
+## How to Use
 
-1. Wählen Sie die Ausgangswährung und geben Sie den Betrag ein, den Sie konvertieren möchten.
-2. Wählen Sie die Zielwährung aus.
-3. Der konvertierte Betrag wird sofort angezeigt.
+1. Select the source currency and enter the amount you wish to convert.
+2. Select the target currency.
+3. The converted amount will be displayed immediately.
 
-## Live-Ansicht der Anwendung
+## Live Preview of the Application
 
-Die Anwendung ist auf Vercel bereitgestellt und kann über den folgenden Link aufgerufen werden:
+The application is deployed on Vercel and can be accessed via the following link:
 
-[Währungsrechner](https://waehrungsrechner.vercel.app/)
+[Link to Currency Converter](https://waehrungsrechner.vercel.app/)
 
+## Used Technologies
+
+- JavaScript: The project is entirely built with JavaScript for functionality.
+- HTML/CSS: Used for structuring and styling the web application.
+- Vercel: Used for deploying the web application.
+- Exchange Rate API: Used to get the most recent currency exchange rates.
