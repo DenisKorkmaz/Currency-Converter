@@ -93,7 +93,7 @@ export default function Rechner() {
 
   return (
     <div>
-      <h1>Währungsrechner</h1>
+      <h1>Currency Converter</h1>
       {isLoading ? (
         <p>Loading...</p>
       ) : (
