@@ -18,4 +18,5 @@ Das Projekt 'Währungsrechner' ist eine Webanwendung zur Währungsumrechnung. Di
 
 Die Anwendung ist auf Vercel bereitgestellt und kann über den folgenden Link aufgerufen werden:
 
-[https://waehrungsrechner.vercel.app/](Währungsrechner)
+[Währungsrechner](https://waehrungsrechner.vercel.app/)
+
