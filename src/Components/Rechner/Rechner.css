@@ -1,0 +1,126 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto; /* centers the div */
+  }
+  
+  a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #535bf2;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+    text-align: center; /* centers the h1 */
+    flex: 1; /* this line and the next make sure h1 is always centered */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .switch-button {
+    border: none;
+    background-color: transparent;
+    font-size: 50px;
+    cursor: pointer;
+  } 
+  
+  input {
+    width: 100%;
+    height: 50px;
+    font-size: large;
+    margin: 10px 0;
+  }
+  
+  select {
+    align-self: center;
+    width: 50%;
+    height: 50px;
+    font-size: large;
+    margin: 10px 0;
+  }
+  
+  p {
+    height: 50px;
+    font-size: 50px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  /* Smartphone */
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.5em;
+    }
+    
+    .switch-button {
+      font-size: 30px;
+    }
+    
+    input, select, p {
+      height: 30px;
+      font-size: medium;
+      margin: 7px 0;
+    }
+  } 
+  
+  /* Tablet */
+  @media only screen and (min-width : 481px) and (max-width : 1024px) {
+    h1 {
+      font-size: 2.5em;
+    }
+    
+    .switch-button {
+      font-size: 40px;
+    }
+    
+    input, select, p {
+      height: 40px;
+      font-size: large;
+      margin: 7px 0;
+    }
+  } 
+  
+  /* Laptop */
+  @media only screen and (min-width : 1025px) {
+    h1 {
+      font-size: 3.2em;
+    }
+    
+    .switch-button {
+      font-size: 50px;
+    }
+    
+    input, select, p {
+      height: 50px;
+      font-size: x-large;
+      margin: 10px 0;
+    }
+  }
